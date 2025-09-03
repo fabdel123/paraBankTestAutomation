@@ -1,17 +1,17 @@
-# BlankFactor Automation Framework
+# Parabank Automation page Framework
 
-Automated testing framework built with **Java**, **Selenium WebDriver**, **Cucumber**, and **Maven**, designed to validate the functionality of the BlankFactor website through maintainable and scalable practices.
+Automated testing framework built with **Java**, **Selenium WebDriver**, **Cucumber**, and **Maven**, designed to validate the functionality of the Parabank website through maintainable and scalable practices.
 
 ---
 
 ## 📁 Project Structure
 
 ```
-blankfactor-automation/
+Parabank-Automation/
 ├── src/
 │   ├── main/
 │   │   ├── java/
-│   │   │   ├── pages/              # Page Object classes (HomePage, ContactPage, etc.)
+│   │   │   ├── pages/              # Page Object classes (HomePage, RegisterPage, etc.)
 │   │   │   └── utils/              # Shared utilities (DriverFactory, ConfigReader, DataStore)
 │   └── test/
 │       ├── java/
@@ -34,7 +34,6 @@ blankfactor-automation/
 - **WebDriverManager**
 - **JUnit 4**
 - **SLF4J (Logging)**
-- *(Optional: Allure / ExtentReports for reporting)*
 
 ---
 
@@ -43,7 +42,7 @@ blankfactor-automation/
 1. **Clone the repository:**
 ```bash
 git clone https://github.com/fabdel123/blankFactorTest.git
-cd blankFactorTest
+
 ```
 
 2. **Run tests with Maven:**
@@ -63,7 +62,7 @@ src/test/resources/config.properties
 
 Example:
 ```
-base.url=https://blankfactor.com
+base.url=https://parabank.parasoft.com/parabank/index.htm
 browser=chrome
 ```
 
