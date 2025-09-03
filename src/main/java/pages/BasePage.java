@@ -49,7 +49,7 @@ public class BasePage {
     }
 
     //Click with Attribute Text Value
-    protected void clickAnyValueWithValue(By arg, String arg1) {
+    protected void clickAnyValueWithValue(By arg, String arg1) throws InterruptedException {
         boolean vAssert = false;
         List<WebElement> elements = driver.findElements(arg);
         for (WebElement element0 : elements) {
