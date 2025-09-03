@@ -16,3 +16,4 @@ Feature: E2E to verify modules Parabank navigation
     And ParaBank page, send data on the field "Confirm:" with the value "1234"
     And ParaBank page, Click on the element with the name "Register"
     Then ParaBank page, check if the value of the alert message is "Your account was created successfully. You are now logged in."
+    And ParaBank page, Account Page click on the field with the value "Bill Pay"

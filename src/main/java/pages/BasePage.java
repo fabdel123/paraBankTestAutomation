@@ -34,7 +34,7 @@ public class BasePage {
     }
 
     //Click with Attribute Text
-    protected void clickAnyValue(By arg, String arg1) {
+    protected void clickAnyValue(By arg, String arg1) throws InterruptedException {
         boolean vAssert = false;
         List<WebElement> elements = driver.findElements(arg);
         for (WebElement element0 : elements) {
@@ -46,9 +46,10 @@ public class BasePage {
             }
         }
         if (vAssert) Assert.assertTrue("No se encontro el campo con label " + arg, vAssert);
+        Thread.sleep(2000);
     }
 
-    //Click with Attribute Text Value
+    //Click with Attribute Value
     protected void clickAnyValueWithValue(By arg, String arg1) throws InterruptedException {
         boolean vAssert = false;
         List<WebElement> elements = driver.findElements(arg);
