@@ -7,7 +7,7 @@ Automated testing framework built with **Java**, **Selenium WebDriver**, **Cucum
 ## 📁 Project Structure
 
 ```
-blankfactor-automation/
+Parabank-Automation/
 ├── src/
 │   ├── main/
 │   │   ├── java/
