@@ -9,7 +9,7 @@ Automated testing framework built with **Java**, **Selenium WebDriver**, **Cucum
 ## 📁 Project Structure
 
 ```
-Parabank-Automation/
+ParaBankTest/
 ├── src/
 │   ├── main/
 │   │   ├── java/
