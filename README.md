@@ -1,5 +1,7 @@
 # Parabank Automation page Framework
 
+[![.github/workflows/run-unit-tests.yml](https://github.com/fabdel123/paraBankTestAutomation/actions/workflows/run-unit-tests.yml/badge.svg)](https://github.com/fabdel123/paraBankTestAutomation/actions/workflows/run-unit-tests.yml)
+
 Automated testing framework built with **Java**, **Selenium WebDriver**, **Cucumber**, and **Maven**, designed to validate the functionality of the Parabank website through maintainable and scalable practices.
 
 ---
