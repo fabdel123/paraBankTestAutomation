@@ -95,7 +95,7 @@ browser=chrome
 
 ## 🔧 Future Improvements
 
-- CI integration (GitHub Actions)
+- CI integration (Jenkins)
 - Reporting (Allure or ExtentReports)
 - Cross-browser testing support
 - Docker-based test execution
